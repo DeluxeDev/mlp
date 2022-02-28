@@ -24,7 +24,7 @@
                     <form method="POST" action="{{ route('create') }}">
                         @csrf
                         <div class="form-group">
-                        <input type="text" class="form-control" id="task" name="task" placeholder="Insert task name">
+                        <input type="text" class="form-control" id="task" name="task" placeholder="Insert task name" required>
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
